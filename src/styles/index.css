@@ -10,3 +10,76 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-section {
+    background-color: #e9ecef;
+    padding: 40px 20px;
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    background-color: #ddd;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .find-out-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
